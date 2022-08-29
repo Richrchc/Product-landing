@@ -1,23 +1,69 @@
-ul{
- list-style-type:none;
- display:flex;
- font-size: 24px;
+
+body{background-color: #1f2937;
+font-family:robato}
+
+header{
+display:flex;
+flex-flow:row wrap;
+justify-content: space-between;
+align-items: center;
+background-color: #1f2937;
+border: tomato 10px;
+border-style: solid;
+}
+#wrestler{
+    display: flex;
+    align-self: flex-start;
+    width: 200px;
+    height:auto;  
 }
 a{
     text-decoration: none;
     color: #f9faf8;
     padding:10px;
 }
-header{
-display:flex;
-flex-flow: row wrap;
-align-items: flex-end;
-justify-content: space-between;
-background-color: #1f2937;
+
+ul{
+    list-style-type:none;
+    display:flex;
+    font-size: 24px;
+   }
+.links{
+    display:flex;
+    justify-content:flex-start;
+    align-self:flex-end;
 }
-img{
-justify-content: flex-start;
-align-self: flex-start;
-width: 150px;
-height:auto;
+
+.hero{
+display:flex;
+flex-flow:column wrap;
+align-items:center;
+border:10px tomato;
+border-style:solid;
+height:200px;
+}
+#luchador_signup{
+    font-size:16px;
+color: #f9faf8;  
+}
+
+#smashin_larry{
+    width:300px;
+} 
+
+button{
+    background-color: blue;
+    color: #f9faf8;
+    box-shadow: inset;
+    border-radius: 25px;
+}
+
+h1{
+    color: #f9faf8;
+    
+}
+
+#santos{
+    display:flex;
+    width:500px;
 }
