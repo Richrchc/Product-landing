@@ -7,15 +7,17 @@ display:flex;
 flex-flow:row wrap;
 justify-content: space-between;
 align-items: center;
-background-color: #1f2937;
-border: tomato 10px;
+background: #1f2937;
+margin: 30px;
+padding: 20px;
+border:#1f2937;
 border-style: solid;
 }
 #wrestler{
     display: flex;
     align-self: flex-start;
     width: 200px;
-    height:auto;  
+    height:auto;
 }
 a{
     text-decoration: none;
@@ -38,9 +40,9 @@ ul{
 display:flex;
 flex-flow:column wrap;
 align-items:center;
-border:10px tomato;
-border-style:solid;
+background-color: #1f2937;
 height:200px;
+border: 30px #1f2937;
 }
 #luchador_signup{
     font-size:16px;
@@ -59,11 +61,38 @@ button{
 }
 
 h1{
-    color: #f9faf8;
-    
+    color: #f9faf8;    
 }
+.Luchador_requirements{
+    background-color: #f9faf8;
+    height:300px;
 
-#santos{
+}
+h2{
+    text-align: center;
+}
+#monte{
     display:flex;
-    width:500px;
+    flex-direction:row;
+    justify-content:space-around;
+
+}
+.requirements{
+
+}
+.quote_block{
+    background-color: #e5e7eb;
+height:200px;
+}
+#quote{
+    text-align: center;
+    display:flex;
+    font-size: 36px;
+    font-style: italic;
+}
+.signup_bottom{
+    background:white;
+}
+.final_signup{
+    background:cornflowerblue;
 }
