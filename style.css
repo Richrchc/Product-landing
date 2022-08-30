@@ -50,7 +50,7 @@ color: #f9faf8;
 }
 
 #smashin_larry{
-    width:300px;
+    width:225px;
 } 
 
 button{
@@ -64,21 +64,34 @@ h1{
     color: #f9faf8;    
 }
 .Luchador_requirements{
-    background-color: #f9faf8;
+    background-color: #e5e7eb;
     height:300px;
-
+}
+.one, .two, .three, .four{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    
 }
 h2{
     text-align: center;
+    font-size: 36px;
+
 }
 #monte{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
 
 }
-.requirements{
+.fighters{
+    width: 150px;
+    height:150px;
 
+    
+}
+.requirements{
+display:flex;
+flex-flow: column wrap;
+justify-content: space-between;
+align-items: center;
 }
 .quote_block{
     background-color: #e5e7eb;
@@ -92,7 +105,12 @@ height:200px;
 }
 .signup_bottom{
     background:white;
+    text-align: center;
+    height:100px;
 }
-.final_signup{
-    background:cornflowerblue;
+
+footer{
+    text-align: center;
+    color:#f9faf8;
+
 }
